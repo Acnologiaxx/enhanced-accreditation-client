@@ -1,0 +1,37 @@
+.management {
+    font-size: medium;
+
+    .user-list {
+        padding: 0;
+        width: 7rem;
+    }
+}
+
+.list-body {
+    margin: 2.8rem 1.5rem;
+    width: 100%;
+}
+
+table {
+    font-size: small;
+    width: 40rem;
+
+    thead {
+        color: white
+    }
+}
+
+.action-button {
+    width: 4rem;
+    display: flex;
+
+    a {
+        margin: 4px;
+    }
+
+    button {
+        height: 2.4rem;
+        margin-top: 4px;
+        margin-left: 2px;
+    }
+}

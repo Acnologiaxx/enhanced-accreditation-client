@@ -1,0 +1,108 @@
+.dashboard {
+    display: flex;
+    height: calc(100vh - 56px);
+}
+
+.sidebar-drawer {
+    height: 100%;
+    width: 2.6rem;
+    color: white;
+    background-color: #333;
+    transition: width 1s;
+    li {
+        white-space: nowrap;
+        margin-left: -33px;
+        padding-left: 0;
+        overflow: hidden;
+
+        a{
+            padding-left: 1rem;
+            text-decoration: none;
+            color: white;
+            font-size: medium;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        a:hover {
+            color: goldenrod;
+        }
+    }
+
+    .profile-logo {
+        height: 15rem;
+    }
+
+    img {
+        margin-top: 1rem;
+        padding: 10px;
+        height: 2.6rem;
+        width: 2.6rem;
+        transition: width 1s, height 1s;
+    }
+}
+
+
+.sidebar-drawer:hover {
+    width: 12.8rem;
+    
+    img {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.dashboard-content {
+    margin-left: 1rem;
+    padding-top: 1rem;
+    width: calc(100% - 11.8rem);
+    display: flex;
+    .prof-pic {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        img {
+            width: 8rem;
+            height: 8rem;
+        }
+
+        input {
+            font-size: small;
+        }
+    }
+}
+
+.profile-form {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70%;
+    width: 50rem;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    .form-group {
+        padding: 0 40px;
+        flex-grow: 1;
+    }
+
+    .profile-buttons {
+        width: 15rem;
+        display: flex;
+        align-self: flex-end;
+    }
+
+    button {
+        margin: 0 10px;
+    }
+}

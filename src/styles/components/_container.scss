@@ -1,0 +1,25 @@
+.card {
+    margin: 40px;
+    width: 35%;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    max-width: 100%;
+}
+
+.google-signin {
+    display: flex;
+    justify-content: center;
+
+    .item {
+        flex-grow: 2;
+    }
+}
+
+.main-con {
+    padding-top: 10rem;
+    text-align: center;
+}
+
